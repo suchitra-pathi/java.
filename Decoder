@@ -1,0 +1,64 @@
+import java.util.*;
+
+
+ class Dcoder
+ {
+   public static void main(String args[])
+   { 
+     
+  int choice = 0;
+  System.out.println("Food item : \n1. Burger,Rs. 130\n2. Pizza,Rs. 200\n3. Samosa,Rs. 50\n4. Coffee,Rs. 25\n5. Tea,Rs. 20\n");
+  Scanner s = new Scanner(System.in);
+  choice = s.nextInt();
+  switch (choice)
+  {
+  case 1 :
+    System.out.println("Your food item is Burger\n price Rs. 130 ");
+    break;
+  case 2 :
+    System.out.println("Your food item is Pizza\n price Rs. 200 ");
+    break;
+  case 3 :
+    System.out.println("Your food item is Samosa\n price Rs. 50 ");
+    break;
+  case 4 :
+    System.out.println("Your food item is Coffee\n price Rs. 25 ");
+    break;
+  case 5 :
+    System.out.println("Your food item is Tea\n price Rs. 20 ");
+    break;
+  default:
+    System.out.println("Your food item is not found");
+    }
+   }
+ }
+    
+
+Output
+
+Food item : 
+1. Burger,Rs. 130
+2. Pizza,Rs. 200
+3. Samosa,Rs. 50
+4. Coffee,Rs. 25
+5. Tea,Rs. 20
+
+1
+Your food item is Burger
+ price Rs. 130 
+
+Food item : 
+1. Burger,Rs. 130
+2. Pizza,Rs. 200
+3. Samosa,Rs. 50
+4. Coffee,Rs. 25
+5. Tea,Rs. 20
+
+6
+Your food item is not found
+    
+    
+  
+  
+   
+ 
